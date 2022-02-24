@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.container {
+ background: #e7e7e7;
+ height: 820px;
+/* main-axis VS cross-axis */
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+
+}
+
+.header {
+    background: red;
+    height: 50px;
+}
+
+.content {
+    background: green;
+    height: 760px;
+
+    display: flex;
+}
+
+.left-side {
+    background: yellow;
+}
+
+.main {
+    background: orange;
+}
